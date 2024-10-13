@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zemirot Book</title>
+    <title>The Ultimate Zemirot Book</title>
 
     <!-- Bootstrap for responsive design -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Google Font for elegant typography -->
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <!-- Google Fonts for elegant typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 
     <!-- Animate.css for smooth animations -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -17,7 +17,7 @@
     <!-- Custom Styling -->
     <style>
         body {
-            font-family: 'Playfair Display', serif;
+            font-family: 'Roboto', sans-serif;
             background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
             color: #b89c34;
             margin: 0;
@@ -28,19 +28,22 @@
         header {
             text-align: center;
             padding: 100px 0;
-            background: linear-gradient(135deg, #b89c34 0%, #dfd4b9 100%);
+            background: linear-gradient(135deg, #b89c34 0%, #e0c9a9 100%);
             color: white;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             animation: fadeInDown 1.5s;
         }
 
         h1 {
-            font-size: 3.5rem;
-            letter-spacing: 3px;
+            font-family: 'Cinzel Decorative', serif;
+            font-size: 4rem;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            margin-bottom: 0;
         }
 
         .logo {
-            width: 350px;
+            width: 400px;
             margin-bottom: 30px;
             animation: bounceIn 2s;
         }
@@ -48,20 +51,27 @@
         .container {
             text-align: center;
             margin-top: 50px;
+            padding: 0 20px;
             animation: fadeInUp 1.5s;
         }
 
         h2 {
-            font-size: 2rem;
+            font-size: 2.5rem;
             margin-bottom: 20px;
+            color: #6c5137;
         }
 
         .pdf-embed {
-            width: 80%;
-            height: 600px;
+            width: 90%;
+            height: 800px;
             border: 2px solid #b89c34;
             box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
             margin-bottom: 50px;
+        }
+
+        .pdf-embed:hover {
+            border-color: #dfb977;
+            box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
         }
 
         footer {
@@ -69,6 +79,7 @@
             padding: 20px 0;
             background-color: #b89c34;
             color: white;
+            letter-spacing: 2px;
         }
 
         /* Keyframes for animation */
